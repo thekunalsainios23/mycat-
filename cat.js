@@ -35,6 +35,7 @@ let fs = require("fs");
             str = addNonEmptyNum(str);
         }
         else{
+            
             //use -n, because -n comes first
             str = addAllNum(str);
         }
